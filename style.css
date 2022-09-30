@@ -6,9 +6,9 @@ h2 , .h1-tag{
   font-style: italic;
 }
 ol , p{
-  font-size: larger;
+  font-size: 22px;
   color: brown;
- font-size: 18px;
+ 
 }
 .span-1{
  font-weight: bolder;
@@ -18,14 +18,15 @@ ol , p{
 font-weight: bolder;
 background-color: yellow;
 }
-.li-tag{
-  font-style: italic;
-  text-decoration: underline;
-}
-#unorder-list{
-  letter-spacing: 6px;
+
+#li-tag{
   color: brown;
-  font-size: 18px;
+  letter-spacing: 6px;
+ font-size: 20px;
+}
+.list-tag{
+  color: brown;
+  font-size: 20px;
 }
 .span-3{
   font-weight: bold;

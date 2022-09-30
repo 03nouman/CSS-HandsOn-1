@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS-HANDSON-1</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .li-tag {
+        font-size: 20px;
+        color: brown;
+        letter-spacing: 6px;
+      }
+    </style>
   </head>
   <body>
     <h1>This is First Css Assignment</h1>
@@ -27,38 +34,45 @@
         multiple web pages all at once
       </li>
       <br />
-      <li class="li-tag">External stylesheets are stored in CSS files.</li>
+      <li style="text-decoration: underline; font-style: italic">
+        External stylesheets are stored in CSS files.
+      </li>
     </ol>
     <br />
     <h1 class="h1-tag">CSS can be added to HTML documents in 3 ways:</h1>
     <ul id="unorder-list">
-      <li>
+      <li style="color: brown; letter-spacing: 6px; font-size: 20px">
         Inline - by using the style attribute inside <b>HTML </b> HTML elements1
       </li>
-      <li>Internal - by using a style element in the head section</li>
-      <li>
+      <li class="li-tag">
+        Internal - by using a style element in the head section
+      </li>
+      <li id="li-tag">
         External - by using a link element to link to an external CSS file.
       </li>
-      <li>
+      <li class="list-tag">
         The most common way to add CSS, is to keep the styles in external CSS
         files. However,
         <span class="span-3"
-          >in this tutorial we will use inline and internal styles,</span
+          >in this <br />
+          tutorial we will use inline and internal styles,</span
         >
-        because this is easier to demonstrate, and easier for you to try it
-        yourself.
+        because this is easier to demonstrate, and easier <br />
+        for you to try it yourself.
       </li>
     </ul>
     <p>
       When comparing CSS class vs ID, the difference is that CSS class applies a
       style to multiple elements. ID, on the other hand, applies a style to one
-      unique element, ID is also special in that you can use a special URL to
-      link directly to an element and it's used by JavaScript
+      unique element, ID is also <br />
+      special in that you can use a special URL to link directly to an element
+      and it's used by JavaScript
     </p>
     <p>
       In CSS, selectors are used to target a specific element or range of
       elements on a web page. Once an element has been targeted, a style or set
-      of styles can be applied to the element.
+      of styles can be applied to the <br />
+      element.
     </p>
     <p>
       There is a wide range of selectors available. Two of the most commonly
