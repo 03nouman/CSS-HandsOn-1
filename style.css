@@ -1,0 +1,40 @@
+h1{
+  color: red;
+}
+h2 , .h1-tag{
+  color: orangered;
+  font-style: italic;
+}
+ol , p{
+  font-size: larger;
+  color: brown;
+ font-size: 18px;
+}
+.span-1{
+ font-weight: bolder;
+  text-decoration: line-through;
+}
+.span-2{
+font-weight: bolder;
+background-color: yellow;
+}
+.li-tag{
+  font-style: italic;
+  text-decoration: underline;
+}
+#unorder-list{
+  letter-spacing: 6px;
+  color: brown;
+  font-size: 18px;
+}
+.span-3{
+  font-weight: bold;
+  background-color: yellow;
+}
+.anchor-tag{
+  font-style: italic;
+  font-weight: bold;
+  color: orangered;
+  background-color: yellow;
+  text-decoration: none;
+}
